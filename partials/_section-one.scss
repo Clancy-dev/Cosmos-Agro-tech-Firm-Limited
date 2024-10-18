@@ -1,0 +1,22 @@
+.section-one{
+
+    background: url(/hero.avif);
+    background-size: contain;
+
+    .company-name{
+        width:100%;
+        min-height: 20vh;
+        background-color: rgba(255, 192, 203, 0.452);
+        display: flex;
+       color: wheat;
+        align-items: center;
+        justify-content: center;
+        font-family: "Song Myung", serif;
+       font-weight: 400;
+        font-style: normal;
+        padding: 1rem;
+    }
+
+
+
+}
