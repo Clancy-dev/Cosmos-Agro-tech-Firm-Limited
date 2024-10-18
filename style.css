@@ -1,6 +1,32 @@
 .section-one {
   background: url(/hero.avif);
   background-size: contain;
+  min-height: 100vh;
+}
+@media (max-width: 915px) {
+  .section-one {
+    min-height: 70vh;
+  }
+}
+@media (max-width: 646px) {
+  .section-one {
+    min-height: 50vh;
+  }
+}
+@media (max-width: 466px) {
+  .section-one {
+    min-height: 40vh;
+  }
+}
+@media (max-width: 372px) {
+  .section-one {
+    min-height: 35vh;
+  }
+}
+@media (max-width: 296px) {
+  .section-one {
+    min-height: 25vh;
+  }
 }
 .section-one .company-name {
   width: 100%;
