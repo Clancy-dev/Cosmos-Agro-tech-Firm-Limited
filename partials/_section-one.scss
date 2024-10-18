@@ -3,6 +3,7 @@
     background: url(/hero.avif);
     background-size: contain;
     min-height: 100vh;
+    margin-top: 15vh;
     @media (max-width:915px) {
         min-height: 70vh;
     }

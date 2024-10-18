@@ -1,17 +1,15 @@
-  
-document.addEventListener("DOMContentLoaded", function() {
-    // Get all nav links
-    const navLinks2 = document.querySelectorAll(".pop-up-menu a");
-  
-    // Get the current URL path
-    const currentPath = window.location.pathname;
+// function setActive(event) {  
+//     // Prevent the default link behavior  
+//     event.preventDefault();  
     
-  
-  
-    // Loop through the links and add 'active' class to the matching link
-    navLinks2.forEach(link2 => {
-        if (link2.getAttribute("href") === currentPath) {
-            link2.classList.add("active");
-        }
-    });
-  });
+//     // Get all nav links  
+//     const links = document.querySelectorAll('.nav-link');  
+    
+//     // Remove 'active' class from all links  
+//     links.forEach(link => {  
+//         link.classList.remove('active');  
+//     });  
+
+//     // Add 'active' class to the clicked link  
+//     event.target.classList.add('active');  
+// }  

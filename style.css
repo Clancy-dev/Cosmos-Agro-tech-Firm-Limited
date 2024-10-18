@@ -2,6 +2,7 @@
   background: url(/hero.avif);
   background-size: contain;
   min-height: 100vh;
+  margin-top: 15vh;
 }
 @media (max-width: 915px) {
   .section-one {
@@ -42,6 +43,711 @@
   padding: 1rem;
 }
 
+.section-three {
+  width: 100%;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: white;
+  padding: 1rem 2rem;
+}
+@media (max-width: 844px) {
+  .section-three {
+    min-height: 5vh;
+  }
+}
+.section-three .main-find-us-container-1 {
+  max-width: 100%;
+  min-height: 50vh;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0 1rem;
+  display: flex;
+  gap: 0.3rem;
+}
+@media (max-width: 850px) {
+  .section-three .main-find-us-container-1 {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 8rem;
+  }
+}
+.section-three .main-find-us-container-1 .sub-main-find-us-container-1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(2, 2, 88);
+  flex-direction: column;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.section-three .main-find-us-container-1 .sub-main-find-us-container-1 h1 {
+  border-bottom: 1px solid brown;
+}
+@media (max-width: 850px) {
+  .section-three .main-find-us-container-1 .sub-main-find-us-container-1 {
+    width: 100%;
+  }
+}
+.section-three .sub-main-find-us-container-2 {
+  max-width: 50%;
+  min-height: 100%;
+}
+@media (max-width: 850px) {
+  .section-three .sub-main-find-us-container-2 {
+    min-width: 17rem;
+    max-height: 12rem;
+  }
+}
+.section-three .sub-main-find-us-container-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-find-us-container-2 {
+  max-width: 100%;
+  min-height: 50vh;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0 1rem;
+  display: flex;
+  gap: 0.3rem;
+}
+@media (max-width: 850px) {
+  .main-find-us-container-2 {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 8rem;
+  }
+}
+.main-find-us-container-2 .sub-main-find-us-container-3 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: brown;
+  flex-direction: column;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+@media (max-width: 850px) {
+  .main-find-us-container-2 .sub-main-find-us-container-3 {
+    width: 100%;
+  }
+}
+
+.sub-main-find-us-container-4 {
+  max-width: 50%;
+  min-height: 100%;
+}
+@media (max-width: 850px) {
+  .sub-main-find-us-container-4 {
+    min-width: 17rem;
+    max-height: 12rem;
+  }
+}
+.sub-main-find-us-container-4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-four {
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-four .message-form {
+  width: 70%;
+  min-height: 95vh;
+  padding: 1rem 0;
+}
+@media (max-width: 1239px) {
+  .section-four .message-form {
+    width: 80%;
+    right: 10%;
+  }
+}
+@media (max-width: 900px) {
+  .section-four .message-form {
+    width: 90%;
+    right: 5%;
+  }
+}
+@media (max-width: 700px) {
+  .section-four .message-form {
+    width: 100%;
+    right: 0;
+  }
+}
+.section-four .message-form .top-images-container {
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: white;
+}
+.section-four .message-form .top-images-container .x-container-2 {
+  width: 10%;
+  height: 10vh;
+  font-size: 300%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: brown;
+  cursor: pointer;
+}
+@media (max-width: 1239px) {
+  .section-four .message-form .top-images-container .x-container-2 {
+    width: 14%;
+  }
+}
+@media (max-width: 800px) {
+  .section-four .message-form .top-images-container .x-container-2 {
+    width: 17%;
+  }
+}
+@media (max-width: 700px) {
+  .section-four .message-form .top-images-container .x-container-2 {
+    width: 20%;
+  }
+}
+@media (max-width: 500px) {
+  .section-four .message-form .top-images-container .x-container-2 {
+    width: 25%;
+    font-size: 270%;
+  }
+}
+@media (max-width: 400px) {
+  .section-four .message-form .top-images-container .x-container-2 {
+    width: 30%;
+  }
+}
+@media (max-width: 350px) {
+  .section-four .message-form .top-images-container .x-container-2 {
+    width: 35%;
+  }
+}
+@media (max-width: 280px) {
+  .section-four .message-form .top-images-container .x-container-2 {
+    width: 37%;
+  }
+}
+.section-four .message-form .bottom-message-form {
+  max-width: 100%;
+  min-height: 70vh;
+  background-color: white;
+  padding-bottom: 0.5rem;
+  border-radius: 10px;
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-1 {
+  max-width: 100%;
+  min-height: 10vh;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: brown;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.521);
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-2 {
+  max-width: 100%;
+  min-height: 8vh;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: brown;
+  padding: 0 0.5rem;
+}
+@media (max-width: 518px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-2 {
+    font-size: 90%;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 459px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-2 {
+    font-size: 80%;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 413px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-2 {
+    font-size: 70%;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 364px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-2 {
+    font-size: 65%;
+    flex-wrap: wrap;
+  }
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-3 {
+  max-width: 100%;
+  min-height: 4vh;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-3 .icon {
+  max-width: 12%;
+  min-height: 4vh;
+}
+@media (max-width: 850px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-3 .icon {
+    max-width: 16%;
+  }
+}
+@media (max-width: 580px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-3 .icon {
+    max-width: 20%;
+  }
+}
+@media (max-width: 420px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-3 .icon {
+    max-width: 25%;
+  }
+}
+@media (max-width: 380px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-3 .icon {
+    max-width: 28%;
+  }
+}
+@media (max-width: 300px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-3 .icon {
+    max-width: 30%;
+  }
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-3 .icon img {
+  width: 100%;
+  height: 100%;
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-4 {
+  max-width: 100%;
+  min-height: 6vh;
+  margin-bottom: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-4 .name {
+  width: 50%;
+  min-height: 6vh;
+  background-color: #E6ECFF;
+  color: #4294FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 15px;
+  padding: 0.2rem 0.5rem;
+}
+@media (max-width: 960px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-4 .name {
+    width: 70%;
+  }
+}
+@media (max-width: 562px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-4 .name {
+    width: 90%;
+  }
+}
+@media (max-width: 490px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-4 .name {
+    font-size: 90%;
+  }
+}
+@media (max-width: 400px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-4 .name {
+    font-size: 70%;
+  }
+}
+@media (max-width: 317px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-4 .name {
+    font-size: 60%;
+  }
+}
+@media (max-width: 280px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-4 .name {
+    font-size: 50%;
+  }
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-5 {
+  max-width: 100%;
+  min-height: 6vh;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-5 .name {
+  width: 50%;
+  min-height: 6vh;
+  background-color: #E6ECFF;
+  color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 15px;
+  padding: 0.2rem 0.5rem;
+}
+@media (max-width: 960px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-5 .name {
+    width: 70%;
+  }
+}
+@media (max-width: 562px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-5 .name {
+    width: 90%;
+  }
+}
+@media (max-width: 490px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-5 .name {
+    font-size: 90%;
+  }
+}
+@media (max-width: 400px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-5 .name {
+    font-size: 70%;
+  }
+}
+@media (max-width: 317px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-5 .name {
+    font-size: 60%;
+  }
+}
+@media (max-width: 280px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-5 .name {
+    font-size: 50%;
+  }
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-6 {
+  max-width: 100%;
+  min-height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-6 .details {
+  width: 50%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: brown;
+}
+@media (max-width: 467px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-6 .details {
+    font-size: 80%;
+  }
+}
+@media (max-width: 485px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-6 .details {
+    width: 100%;
+  }
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-7 {
+  max-width: 100%;
+  min-height: 6vh;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  padding: 0 1rem;
+  font-size: 140%;
+  color: brown;
+}
+@media (max-width: 467px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-7 {
+    font-size: 110%;
+  }
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-8 {
+  max-width: 100%;
+  min-height: 6vh;
+  padding: 0 1rem;
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-8 #title {
+  width: 80%;
+  height: 100%;
+  font-size: 140%;
+  padding: 0.5rem;
+  border: 1px solid brown;
+  border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-8 #title {
+    width: 100%;
+  }
+}
+@media (max-width: 467px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-8 #title {
+    font-size: 110%;
+  }
+}
+@media (max-width: 340px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-8 #title {
+    font-size: 100%;
+  }
+}
+@media (max-width: 300px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-8 #title {
+    font-size: 90%;
+  }
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-9 {
+  max-width: 100%;
+  min-height: 6vh;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  padding: 0 1rem;
+  font-size: 140%;
+  color: brown;
+}
+@media (max-width: 467px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-9 {
+    font-size: 110%;
+  }
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-10 {
+  max-width: 100%;
+  min-height: 6vh;
+  padding: 0 1rem;
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-10 #title {
+  width: 80%;
+  height: 100%;
+  font-size: 140%;
+  padding: 0.5rem;
+  border: 1px solid brown;
+  border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-10 #title {
+    width: 100%;
+  }
+}
+@media (max-width: 467px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-10 #title {
+    font-size: 110%;
+  }
+}
+@media (max-width: 340px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-10 #title {
+    font-size: 100%;
+  }
+}
+@media (max-width: 300px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-10 #title {
+    font-size: 90%;
+  }
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-11 {
+  max-width: 100%;
+  min-height: 6vh;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  padding: 0 1rem;
+  font-size: 140%;
+  color: brown;
+}
+@media (max-width: 467px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-11 {
+    font-size: 110%;
+  }
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-12 {
+  max-width: 100%;
+  min-height: 6vh;
+  padding: 0 1rem;
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-12 #title {
+  width: 80%;
+  height: 100%;
+  font-size: 140%;
+  padding: 0.5rem;
+  border: 1px solid brown;
+  border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-12 #title {
+    width: 100%;
+  }
+}
+@media (max-width: 467px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-12 #title {
+    font-size: 110%;
+  }
+}
+@media (max-width: 340px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-12 #title {
+    font-size: 100%;
+  }
+}
+@media (max-width: 300px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-12 #title {
+    font-size: 90%;
+  }
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-13 {
+  max-width: 100%;
+  min-height: 6vh;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  padding: 0 1rem;
+  font-size: 140%;
+  color: brown;
+}
+@media (max-width: 467px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-13 {
+    font-size: 110%;
+  }
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-14 {
+  max-width: 100%;
+  min-height: 6vh;
+  padding: 0 1rem;
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-14 #title {
+  width: 80%;
+  height: 100%;
+  font-size: 140%;
+  padding: 0.5rem;
+  border: 1px solid brown;
+  border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-14 #title {
+    width: 100%;
+  }
+}
+@media (max-width: 467px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-14 #title {
+    font-size: 110%;
+  }
+}
+@media (max-width: 340px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-14 #title {
+    font-size: 100%;
+  }
+}
+@media (max-width: 300px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-14 #title {
+    font-size: 90%;
+  }
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-15 {
+  max-width: 100%;
+  min-height: 6vh;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  padding: 0 1rem;
+  font-size: 140%;
+  color: brown;
+}
+@media (max-width: 467px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-15 {
+    font-size: 110%;
+  }
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-16 {
+  max-width: 100%;
+  min-height: 6vh;
+  margin-bottom: 0.5rem;
+  padding: 0 1rem;
+}
+.section-four .message-form .bottom-message-form .inside-bottom-message-form-16 #text-area {
+  resize: none;
+  border-radius: 5px;
+  width: 80%;
+  height: 100%;
+  font-size: 140%;
+  padding: 0.5rem;
+  border: 1px solid brown;
+}
+@media (max-width: 500px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-16 #text-area {
+    width: 100%;
+  }
+}
+@media (max-width: 467px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-16 #text-area {
+    font-size: 110%;
+  }
+}
+@media (max-width: 340px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-16 #text-area {
+    font-size: 100%;
+  }
+}
+@media (max-width: 300px) {
+  .section-four .message-form .bottom-message-form .inside-bottom-message-form-16 #text-area {
+    font-size: 90%;
+  }
+}
+.section-four .message-form .inside-bottom-message-form-17 {
+  max-width: 100%;
+  min-height: 6vh;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-four .message-form .inside-bottom-message-form-17 .submit-btn {
+  width: 30%;
+  height: 6vh;
+  cursor: pointer;
+  background-color: orangered;
+  font-size: 120%;
+  border-radius: 5px;
+  color: white;
+  border-right: 1px solid aqua;
+  border-bottom: 1px solid aqua;
+}
+@media (max-width: 450px) {
+  .section-four .message-form .inside-bottom-message-form-17 .submit-btn {
+    width: 40%;
+    font-size: 110%;
+  }
+}
+@media (max-width: 340px) {
+  .section-four .message-form .inside-bottom-message-form-17 .submit-btn {
+    font-size: 100%;
+  }
+}
+@media (max-width: 300px) {
+  .section-four .message-form .inside-bottom-message-form-17 .submit-btn {
+    font-size: 90%;
+  }
+}
+.section-four .message-form .inside-bottom-message-form-18 {
+  max-width: 100%;
+  min-height: 6vh;
+  background-color: green;
+  margin-bottom: 0.5rem;
+}
+.section-four .message-form .inside-bottom-message-form-19 {
+  max-width: 100%;
+  min-height: 6vh;
+  background-color: green;
+  margin-bottom: 0.5rem;
+}
+
 header {
   width: 100%;
   height: 15vh;
@@ -49,6 +755,8 @@ header {
   display: flex;
   gap: 0.5rem;
   background-color: white;
+  position: fixed;
+  top: 0;
 }
 header .logo-container {
   display: block;
@@ -96,14 +804,6 @@ header nav a {
     display: none;
   }
 }
-header nav a.active {
-  color: orangered;
-  text-decoration: underline;
-  transition: 1s ease all;
-}
-header nav a:not(.active) {
-  text-shadow: none;
-}
 header nav .nav-icon {
   display: none;
 }
@@ -112,7 +812,7 @@ header nav .nav-icon {
     display: block;
     font-size: 210%;
     font-weight: 700;
-    color: brown;
+    color: green;
     cursor: pointer;
   }
 }
@@ -141,7 +841,10 @@ section {
   max-width: 100%;
   min-height: 100vh;
   background-color: orangered;
-  margin-bottom: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .pop-up-menu {
@@ -165,14 +868,14 @@ section {
   align-items: center;
   justify-content: end;
   font-size: 300%;
-  color: brown;
+  color: green;
 }
 .pop-up-menu .link-container {
   width: 100%;
   padding: 1rem 1.5rem;
   font-size: 150%;
   cursor: pointer;
-  border-top: 1px solid brown;
+  border-top: 1px solid green;
 }
 @media (max-width: 440px) {
   .pop-up-menu .link-container {
@@ -181,7 +884,7 @@ section {
 }
 .pop-up-menu .link-container a {
   font-weight: 600;
-  color: brown;
+  color: green;
   text-decoration: none;
   width: 100%;
   height: 100%;
