@@ -80,14 +80,14 @@ document.addEventListener("DOMContentLoaded", function() {
     ga('send', 'pageview');
 
 document.addEventListener("DOMContentLoaded", function() {
-  document.title = "Symo Property Consultants Ltd - Your Budget is our Target";
+  document.title = "Cosmos Agro Tech Firm Ltd - Innovative Agricultural Solutions";
   const metaDescription = document.createElement('meta');
   metaDescription.name = "description";
-  metaDescription.content = "Symo Property Consultants Ltd helps you buy and sell land, plots, houses, commercial buildings, and more with your budget in mind.";
+  metaDescription.content = "Cosmos Agro-Tech Firm Limited offers cutting-edge agricultural technology and solutions to enhance productivity and sustainability in farming.";
   document.head.appendChild(metaDescription);
 });
 
-fetch("https://www.google.com/ping?sitemap=https://symo-property-consultants-ltd.netlify.app/sitemap.xml")
+fetch("https://www.google.com/ping?sitemap=https://cosmos-agro-tech-firm-ltd.netlify.app/sitemap.xml")
     .then(response => console.log("Sitemap submitted"))
     .catch(error => console.error("Error submitting sitemap:", error));
 
