@@ -1006,6 +1006,12 @@ html {
 .main-about h1, .main-about h2, .main-about h3 {
   color: #333;
 }
+.main-about ul {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
 .main-about h1 {
   color: green;
 }
@@ -1024,6 +1030,12 @@ html {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
+}
+.main-about .card .title {
+  color: brown;
+  font-family: "Song Myung", serif;
+  font-weight: 400;
+  font-size: large;
 }
 .main-about .card img {
   width: 100%;

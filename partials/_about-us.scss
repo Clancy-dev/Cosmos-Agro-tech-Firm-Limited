@@ -20,6 +20,13 @@
         color: #333;
 
     }
+    
+    ul{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
     h1{
         color: green;
         
@@ -32,6 +39,8 @@
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         gap: 20px;
         margin-top: 40px;
+
+       
     }
     .card {
         background: white;
@@ -39,6 +48,15 @@
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         padding: 20px;
         text-align: center;
+
+        .title{
+            color: brown;
+            font-family: "Song Myung", serif;
+            font-weight: 400;
+            font-size: large;
+            
+    
+        }
     }
     .card img {
         width: 100%;
